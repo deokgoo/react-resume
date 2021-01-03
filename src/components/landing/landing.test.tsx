@@ -1,6 +1,6 @@
 import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
-import Main from './main';
+import Landing from './landing';
 
 let container: null | HTMLElement = null;
 
@@ -17,11 +17,11 @@ afterEach(() => {
   container = null;
 });
 
-describe('test app', () => {
-  it('header title check', () => {
+describe('Landing Component test', () => {
+  it('title letter test', () => {
     act(() => {
-      render(<Main />, container);
+      render(<Landing/>, container);
     });
-    expect(container?.textContent).toEqual(expect.stringContaining('Learn React'));
+    expect(container?.textContent).toEqual(expect.stringContaining('Front Developer'));
   });
 })
