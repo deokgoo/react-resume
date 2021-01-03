@@ -1,6 +1,6 @@
 import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
-import App from './App';
+import Main from './main';
 
 let container: null | HTMLElement = null;
 
@@ -20,7 +20,7 @@ afterEach(() => {
 describe('test app', () => {
   it('header title check', () => {
     act(() => {
-      render(<App />, container);
+      render(<Main />, container);
     });
     expect(container?.textContent).toEqual(expect.stringContaining('Learn React'));
   });
