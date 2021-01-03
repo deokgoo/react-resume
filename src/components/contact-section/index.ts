@@ -1,3 +1,19 @@
 import ContactSection from './contact-section';
+import { cardType } from '../layout/type';
+import styles from './contact-section.module.scss';
 
-export default ContactSection
+const contactStyle: cardType = {
+  title: 'About',
+  cardStyle: {
+    background: styles.card__background,
+    titleColor: styles.card__title,
+    naviColor: styles.card__navi,
+  }
+}
+
+const containerContact = {
+  card: contactStyle,
+  content: ContactSection,
+}
+
+export default containerContact;

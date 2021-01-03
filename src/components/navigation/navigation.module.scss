@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  .others,
+  .contact {flex: 1 1 50%;}
+  .contact {
+    margin-top: 6px;
+    text-align: center;
+  }
+  .distinguish {
+    color: white;
+  }
+}

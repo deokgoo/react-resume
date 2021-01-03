@@ -1,13 +1,19 @@
 import AboutSection from './about-section';
-import { cardStyleType } from '../layout/type';
+import { cardType } from '../layout/type';
+import styles from './about-section.module.scss';
 
-const aboutStyle: cardStyleType = {
-  background: 'blue',
-  titleColor: 'white',
-  naviColor: 'white',
+const aboutStyle: cardType = {
+  title: 'About',
+  cardStyle: {
+    background: styles.card__background,
+    titleColor: styles.card__title,
+    naviColor: styles.card__navi,
+  }
 }
 
-export default {
-  AboutSection,
-
+const containerAbout = {
+  card: aboutStyle,
+  content: AboutSection,
 }
+
+export default containerAbout;
