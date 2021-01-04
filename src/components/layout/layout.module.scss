@@ -16,12 +16,13 @@ section:after {
   clear: both;
 }
 .left {
+  padding: 2rem;
   width: 50%;
   display: flex;
   float: left;
   flex-direction: column;
   height: 100vh;
-  box-sizing: content-box;
+  box-sizing: border-box;
   .title {
     display: flex;
     justify-content: center;

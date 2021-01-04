@@ -40,3 +40,9 @@
   left: 0;
   content: '•';
 }
+
+@media screen and (max-width: 780px) {
+  .container {
+    padding: 2rem;
+  }
+}
