@@ -7,15 +7,17 @@ import ContactSection from '../../components/contact-section';
 
 import styles from './main.module.scss';
 import Layout from '../../components/layout';
+import useMain from './hooks/use-main';
 
 const Main = () => {
+  const { refs } = useMain();
   return (
     <div className={styles.container}>
-      <Landing/>
-      {Layout(AboutSection)}
-      {Layout(WorkExperienceSection)}
-      {Layout(SkillSection)}
-      {Layout(ContactSection)}
+      <Landing refs={refs}/>
+      {Layout(AboutSection, refs, refs.aboutRef)}
+      {Layout(WorkExperienceSection, refs, refs.workExperienceRef)}
+      {Layout(SkillSection, refs, refs.skillRef)}
+      {Layout(ContactSection, refs, refs.contactRef)}
     </div>
   );
 }

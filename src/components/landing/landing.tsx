@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import styles from './landing.module.scss';
 import Navigation from '../navigation';
 
-const Landing = memo(() => {
+const Landing = memo(({refs}: {refs: any}) => {
   const avatarUrl = 'https://avatars3.githubusercontent.com/u/20182365?s=400&u=b42f8d09da0bbba0a1aa030e2f2a184ecad8510f&v=4';
   return (
     <div className={styles.container}>
@@ -21,7 +21,7 @@ const Landing = memo(() => {
         </div>
       </div>
       <div className={styles.naviContainer}>
-        <Navigation/>
+        <Navigation refs={refs}/>
       </div>
     </div>
   )
