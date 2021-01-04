@@ -29,16 +29,19 @@ const AboutSection = memo(() => {
       </div>
       <div className={styles.description}>
         하이브리드 앱을 개발하는 도중 웹에 흥미가 생겨 웹에 관한 지식을 습득하며
-        현재는 웹에 대한 커리어를 올리고 있습니다.
+        현재는 웹에 대한 커리어를 올리고 있습니다.기
       </div>
       <br/>
       <div className={styles.title}>
         관심 분야.
       </div>
       <div className={`${styles.description} ${styles.bullet}`}>
-        UI/UX에 관심이 있으며 사용하는 user행동을 데이터를 분석하여 (GA, heatmap 등)
-        design 및 performance 개선 하는 것을 즐거워 합니다. (특히나 디자이너와 소통하며
-        좀 더 나은 방향을 찾았을 짜릿합니다.)
+        새로운 기술이 있다면 서슴지 않고 익히며 향후 프로젝트에 어떤식으로 적용할지 생각하며
+        미니 프로젝트로 남려고 노력합니다.
+      </div>
+      <div className={`${styles.description} ${styles.bullet}`}>
+        UI/UX에 관심이 있으며 사용하는 유저의 행동을 분석하여 (GA, heatmap 등)
+        design 및 performance 개선 하는 것에 만족감을 얻습니다.
       </div>
     </div>
   )

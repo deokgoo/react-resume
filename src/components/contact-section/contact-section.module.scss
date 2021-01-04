@@ -1,6 +1,63 @@
 @import '../../styles/color.scss';
+@import '../../styles/size.scss';
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lobster&display=swap');
 
 // card color
 .card__background {background-color:$main-light-yellow;}
 .card__title {color:white;}
 .card__navi {color:white;}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Do Hyeon', sans-serif;
+  .title {
+    font-size: $font-medium;
+    margin-bottom: 1rem;
+  }
+  .subTitle {
+    font-size: $font-regular-plus;
+  }
+  .email {
+    margin-top: 0.5rem;
+    font-size: $font-small;
+    text-align: center;
+    color: gray;
+  }
+  .links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    .icon {
+      font-size: 2rem;
+      color: black;
+      margin: 0.5rem;
+    }
+  }
+}
+
+.resumeDescription {
+  margin-top: 1rem;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.aboutResume {
+  color: $main-blue;
+  font-size: $font-regular;
+  text-align: center;
+}
+
+.reserved {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  color: gray;
+}
