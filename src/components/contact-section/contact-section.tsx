@@ -24,7 +24,7 @@ const ContactSection = memo(() => {
           {/* eslint-disable-next-line */}
           <a className={`${styles.icon} fab fa-github`} rel="noreferrer" target="_blank" href="https://github.com/deokgoo"/>
           {/* eslint-disable-next-line */}
-          <a className={`${styles.icon} fab fa-linkedin`} rel="noreferrer" href="https://www.linkedin.com/in/kim-deokgoo-51b583155/"/>
+          <a className={`${styles.icon} fab fa-linkedin`} rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/kim-deokgoo-51b583155/"/>
         </div>
         <span className={styles.resumeDescription}>
           이력서는 이런 흐름으로 만들었습니다.!
