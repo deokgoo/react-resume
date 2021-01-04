@@ -15,7 +15,7 @@ const Landing = memo(({refs}: {refs: any}) => {
         <div className={styles.profile}>
           <img className={styles.avatar} src={avatarUrl} alt="it's deok9"/>
           <div className={styles.description}>
-            안녕하세요! 김덕구입니다. <br/>
+            반갑습니다! 김덕구입니다. <br/>
             <span className={styles.underline}>탐구형</span> 프론트엔드 개발자 입니다.
           </div>
         </div>
