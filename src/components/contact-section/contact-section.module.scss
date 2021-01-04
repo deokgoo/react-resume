@@ -8,10 +8,12 @@
 .card__navi {color:white;}
 
 .container {
+  padding: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .content {
@@ -60,4 +62,11 @@
   bottom: 3rem;
   right: 3rem;
   color: gray;
+}
+
+@media screen and (max-width: 780px) {
+  .reserved {
+    right: 1rem;
+    bottom: 1rem;
+  }
 }
