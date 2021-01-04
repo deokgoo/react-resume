@@ -1,0 +1,32 @@
+@import '../../styles/size.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lobster&display=swap');
+
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+.left {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 90%;
+    font-size: $font-extra_large;
+    font-family: 'Lobster', cursive;;
+  }
+  .navi {
+    flex: 1 1 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $font-regular;
+    font-family: 'Do Hyeon', sans-serif;
+  }
+}
+
+.right {flex: 1 1 50%;}
