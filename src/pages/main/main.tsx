@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Landing from '../../components/landing';
 import AboutSection from '../../components/about-section';
 import WorkExperienceSection from '../../components/work-experience-section';
