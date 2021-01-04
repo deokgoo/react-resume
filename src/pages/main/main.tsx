@@ -10,10 +10,7 @@ import Layout from '../../components/layout';
 import useMain from './hooks/use-main';
 
 const Main = () => {
-  const { entry, refs } = useMain();
-  useEffect(() => {
-    console.log(entry);
-  }, [entry])
+  const { refs } = useMain();
   return (
     <div className={styles.container}>
       <Landing refs={refs}/>

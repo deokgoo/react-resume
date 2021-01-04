@@ -3,7 +3,7 @@ import { cardType } from '../layout/type';
 import styles from './contact-section.module.scss';
 
 const contactStyle: cardType = {
-  title: 'About',
+  title: 'Contact',
   cardStyle: {
     background: styles.card__background,
     titleColor: styles.card__title,

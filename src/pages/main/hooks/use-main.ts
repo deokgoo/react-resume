@@ -1,23 +1,15 @@
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 
 const useMain = () => {
-  const [entry, updateEntry] = useState({});
-  const aboutRef = useRef(
-    new window.IntersectionObserver(([entry]) => updateEntry(entry))
-  );
-  const workExperienceRef = useRef(new window.IntersectionObserver(([entry]) => updateEntry(entry)));
-  const skillRef = useRef(new window.IntersectionObserver(([entry]) => updateEntry(entry)));
-  const contactRef = useRef(new window.IntersectionObserver(([entry]) => updateEntry(entry)));
 
   const refs = {
-    aboutRef,
-    workExperienceRef,
-    skillRef,
-    contactRef,
+    aboutRef: useRef(),
+    workExperienceRef: useRef(),
+    skillRef: useRef(),
+    contactRef: useRef(),
   }
 
   return {
-    entry,
     refs,
   }
 }
