@@ -4,9 +4,7 @@ import styles from './about-section.module.scss';
 const AboutSection = memo(() => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>
-        저는 풀스택을 지향합니다.
-      </div>
+      <div className={styles.title}>저는 풀스택을 지향합니다.</div>
       <div className={styles.description}>
         프론트 성향이 짙은 2년차 엔지니어이며, 프로덕터의 도메인이해를 중요시합니다.
       </div>
@@ -20,21 +18,17 @@ const AboutSection = memo(() => {
         맞춰 가는 것을 좋아합니다.
       </div>
       <br/>
-      <div className={styles.title}>
-        개발 인생.
-      </div>
+      <div className={styles.title}>개발 인생.</div>
       <div className={styles.description}>
         대학생 시기에는<span style={{fontSize: '1rem', color: 'gray'}}> (2016~2019)</span> 알고리즘과 자료구조에 집중하며
         개발은 주로 Android(java) / IOS(swift) 집중하였습니다.
       </div>
       <div className={styles.description}>
         하이브리드 앱을 개발하는 도중 웹에 흥미가 생겨 웹에 관한 지식을 습득하며
-        현재는 웹에 대한 커리어를 올리고 있습니다.기
+        현재는 웹에 대한 커리어를 올리고 있습니다.
       </div>
       <br/>
-      <div className={styles.title}>
-        관심 분야.
-      </div>
+      <div className={styles.title}>관심 분야.</div>
       <div className={`${styles.description} ${styles.bullet}`}>
         새로운 기술이 있다면 서슴지 않고 익히며 향후 프로젝트에 어떤식으로 적용할지 생각하며
         미니 프로젝트로 남려고 노력합니다.
