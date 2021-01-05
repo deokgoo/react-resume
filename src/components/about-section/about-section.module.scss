@@ -8,7 +8,7 @@
 .card__navi {color:white;}
 
 .container {
-  padding: 4rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -17,16 +17,16 @@
 
 .title {
   margin-bottom: 1rem;
-  font-size: $font-large;
+  font-size: $font-medium;
   font-weight: 500;
   text-decoration: $main-blue underline;
 }
 
 .description {
   margin-bottom: 8px;
-  font-size: $font-medium;
+  font-size: $font-regular;
   font-weight: 100;
-  line-height: $font-medium+0.6rem;
+  line-height: $font-regular+0.4rem;
 }
 
 .bullet {

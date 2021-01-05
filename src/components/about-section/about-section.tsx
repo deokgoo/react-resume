@@ -24,7 +24,7 @@ const AboutSection = memo(() => {
         개발 인생.
       </div>
       <div className={styles.description}>
-        대학생 시기에는<span style={{fontSize: '1.4rem', color: 'gray'}}> (2016~2019)</span> 알고리즘과 자료구조에 집중하며
+        대학생 시기에는<span style={{fontSize: '1rem', color: 'gray'}}> (2016~2019)</span> 알고리즘과 자료구조에 집중하며
         개발은 주로 Android(java) / IOS(swift) 집중하였습니다.
       </div>
       <div className={styles.description}>
