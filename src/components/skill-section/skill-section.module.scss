@@ -1,6 +1,43 @@
 @import '../../styles/color.scss';
+@import '../../styles/size.scss';
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lobster&display=swap');
 
 // card color
 .card__background {background-color:$main-dark-blue;}
 .card__title {color:white;}
 .card__navi {color:white;}
+
+.container {
+  padding: 3rem 2rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.title {
+  font-size: $font-medium;
+  margin-bottom: 0.5rem;
+}
+.descriptions {
+  .item {
+    position: relative;
+    margin-bottom: 0.4rem;
+    .content {
+      padding-left: 0.8rem;
+      font-size: $font-regular;
+    }
+  }
+  .item:before {
+    content: '•';
+    color: $main-blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.underline {
+  margin: 2rem 0;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+}
