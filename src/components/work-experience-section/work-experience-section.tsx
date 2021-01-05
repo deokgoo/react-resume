@@ -29,24 +29,23 @@ const WorkExperienceSection = memo(() => {
           </div>
           <div className={styles.projectSubName}>what did i do</div>
           <div className={styles.projectDescription}>
-            1. OAuth2.0을 기반으로 구현 (토큰 교환 등) <br/>
-            2. oidc-client를 이용한 테스트용 Client(SPA) 구현 <br/>
-            3. 유저정보 관리 페이지 구현
+            • OAuth2.0을 기반으로 전체적인 기능 구현 (토큰 교환 등)<br/>
+            • WebPack 및 babel 세팅 (여러 브라우저 대응) <br/>
+            • 여러 단말 디자인 대응 (반응형 웹)<br/>
+            • 디자이너와 함께 Conversion Rate를 높이는 디자인 구성<br/>
+            • oidc-client를 이용한 테스트용 Client(SPA) 구현<br/>
+            • Express를 사용하여 API Mock 구현<br/>
+            • Jest기반으로 UT 및 E2E 작성
           </div>
           <div className={styles.projectSubName}>
             tech stack
           </div>
           <div className={styles.projectDescription}>
-            Front<br/>
-            • Vue(js), bootstrap, thymeleaf, jest <br/>
-            Backend<br/>
-            • SpringBoot(spring-security)<br/>
-            Env<br/>
-            • AWS(pipeline, ECS, S3 등), 기타보안 툴
+            Vue.js, SpringBoot(spring-security), Thymeleaf, Bootstrap, Express, Sequelize, Jest, Puppeteer,
+            Docker, Mysql, Redis, Mybatis, AWS(code-pipeline, ECS, S3 등), 기타보안 툴
           </div>
         </div>
         <br/>
-        {/*ekyc*/}
         <div className={styles.projectName}>
           eKYC
           <span className={styles.sub}>
@@ -61,22 +60,18 @@ const WorkExperienceSection = memo(() => {
           </div>
           <div className={styles.projectSubName}>what did i do</div>
           <div className={styles.projectDescription}>
-            1. 은행원이 관리할 수 있는 열람페이지 구현 <br/>
-            2. 이미지 및 데이터 저장 (암호화 및 복호화)<br/>
-            3. 인증 API 연결
+            • Functional Component 베이스로 Vue 작성<br/>
+            • 은행원이 관리할 수 있는 열람페이지 구현<br/>
+            • 이미지 및 데이터 저장 (암호화 및 복호화)<br/>
+            • Puppteer로 E2E 작성
           </div>
           <div className={styles.projectSubName}>tech stack</div>
           <div className={styles.projectDescription}>
-            Front<br/>
-            • Vue(js), bootstrap, Sass, jest <br/>
-            Backend<br/>
-            • Keycloak<br/>
-            Env<br/>
-            • AWS(pipeline, ECS, S3, Connect 등), 기타보안 툴
+            Vue.js, Keycloak, Bootstrap, Sass, Redis, Jest, Puppeteer, Docker
+            AWS(pipeline, ECS, S3, Connect), 기타보안 툴
           </div>
         </div>
         <br/>
-        {/*clientManager*/}
         <div className={styles.projectName}>
           Client Manager
           <span className={styles.sub}>
@@ -92,16 +87,14 @@ const WorkExperienceSection = memo(() => {
           </div>
           <div className={styles.projectSubName}>what i'm doing</div>
           <div className={styles.projectDescription}>
-            1. React Hierarchy 구성<br/>
-            2. oidc-client-redux를 사용하여 로그인(토큰) 관리<br/>
-            3. 전체적인 UX/UI 디자인
+            • React Hierarchy 구성<br/>
+            • oidc-client-redux를 사용하여 로그인(토큰) 관리<br/>
+            • 전반적인 UX/UI 디자인
+            • hooks UT, Component UT 작성
           </div>
           <div className={styles.projectSubName}>tech stack</div>
           <div className={styles.projectDescription}>
-            Front<br/>
-            • React(ts), PostCSS, MaterialUI, jest<br/>
-            Backend<br/>
-            • Keycloak<br/>
+            React(ts), Oidc-client, PostCSS, Sass, MaterialUI, Jest, Docker, Keycloak
           </div>
         </div>
       </div>
