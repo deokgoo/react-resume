@@ -3,7 +3,7 @@ import { cardType } from '../layout/type';
 import styles from './work-experience-section.module.scss';
 
 const workExperienceStyle: cardType = {
-  title: 'WorkExperience',
+  title: 'Work',
   cardStyle: {
     background: styles.card__background,
     titleColor: styles.card__title,
