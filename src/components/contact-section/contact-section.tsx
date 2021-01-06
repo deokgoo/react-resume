@@ -19,7 +19,7 @@ const ContactSection = memo(() => {
         <div className={styles.subTitle}>
           김.덕.구. deok9 - frontend develop engineer
         </div>
-        <a className={styles.email} href="mailto: kkddgg1001@gmail.com">kkddgg1001@gmail.com</a>
+        <a className={styles.email} href="mailto: kkddgg1001@gmail.com">(kkddgg1001@gmail.com)</a>
         <div className={styles.links}>
           {/* eslint-disable-next-line */}
           <a className={`${styles.icon} fab fa-github`} rel="noreferrer" target="_blank" href="https://github.com/deokgoo"/>

@@ -1,6 +1,5 @@
 @import '../../styles/size.scss';
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lobster&display=swap');
 
 .container {
   display: flex;
@@ -37,7 +36,7 @@ section:after {
     justify-content: center;
     align-items: center;
     font-size: $font-regular;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
   }
 }
 .right {

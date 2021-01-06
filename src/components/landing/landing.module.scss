@@ -1,6 +1,5 @@
 @import '../../styles/size.scss';
 @import '../../styles/color.scss';
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lobster&display=swap');
 
 .container {
   display: flex;
@@ -19,7 +18,7 @@
 
   .title {
     color: $main-blue;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: $font-regular;
     font-weight: 700;
     letter-spacing: 2px;
@@ -46,7 +45,7 @@
     }
     .description {
       margin-top: 8px;
-      font-family: 'Do Hyeon', sans-serif;
+      font-family: 'Nanum Gothic', sans-serif;
       font-size: $font-medium;
       font-weight: 700;
       line-height: 150%;
@@ -61,7 +60,7 @@
   justify-content: center;
   align-items: center;
   color: $main-blue;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-size: $font-regular;
 }
 

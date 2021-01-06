@@ -1,6 +1,5 @@
 @import '../../styles/color.scss';
 @import '../../styles/size.scss';
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lobster&display=swap');
 
 // card color
 .card__background {background-color:$main-light-yellow;}
@@ -8,7 +7,7 @@
 .card__navi {color:white;}
 
 .container {
-  padding: 4rem;
+  padding: 3rem 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,17 +18,21 @@
 .content {
   display: flex;
   flex-direction: column;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   .title {
     font-size: $font-regular;
-    margin-bottom: 1rem;
+    line-height: $font-regular+0.5rem;
+    margin-bottom: 2rem;
   }
   .subTitle {
     font-size: $font-regular;
+    text-align: center;
+    line-height: $font-regular+0.5rem;
   }
   .email {
-    margin-top: 0.5rem;
-    font-size: $font-small;
+    margin-top: 1rem;
+    font-size: $font-regular;
+    text-decoration: none;
     text-align: center;
     color: gray;
   }
