@@ -29,11 +29,11 @@ const AboutSection = memo(() => {
   ];
   const renderAbout = () => {
     return aboutContent.map(x => (
-      <>
+      <div key={x.title}>
         <div className={styles.title}>{x.title}</div>
         {
           x.descriptions.map(description => (
-            <div className={styles.description}>
+            <div className={styles.description} key={description}>
               <div className={styles.item}>
                 <div className={styles.content}>
                   {description}
@@ -42,7 +42,7 @@ const AboutSection = memo(() => {
             </div>
           ))
         }
-      </>
+      </div>
     ))
   };
 
