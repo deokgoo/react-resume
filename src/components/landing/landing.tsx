@@ -12,15 +12,6 @@ const Landing = memo(({refs}: {refs: any}) => {
         <div className={styles.title}>
           Front Developer
         </div>
-        <div className={styles.lang}>
-          <div className={styles.others}>
-            <span className={styles.clickable} onClick={() => historyPush('en')}>English</span>
-            <span className={styles.distinguish}> / </span>
-            <span className={styles.clickable} onClick={() => historyPush('ko')}>Korea</span>
-            <span className={styles.distinguish}> / </span>
-            <span className={styles.clickable} onClick={() => historyPush('jp')}>Japan</span>
-          </div>
-        </div>
       </div>
       <div className={styles.profileContainer}>
         <div className={styles.profile}>
@@ -28,6 +19,18 @@ const Landing = memo(({refs}: {refs: any}) => {
           <div className={styles.description}>
             반갑습니다! 김덕구입니다. <br/>
             <span className={styles.underline}>탐구형</span> 프론트엔드 개발자 입니다.
+          </div>
+          <div className={styles.lang}>
+            <div className={styles.lang__title}>
+              Language
+            </div>
+            <div className={styles.others}>
+              <span className={styles.clickable} onClick={() => historyPush('en')}>English</span>
+              <span className={styles.distinguish}> · </span>
+              <span className={styles.clickable} onClick={() => historyPush('ko')}>Korea</span>
+              <span className={styles.distinguish}> · </span>
+              <span className={styles.clickable} onClick={() => historyPush('jp')}>Japan</span>
+            </div>
           </div>
         </div>
       </div>
