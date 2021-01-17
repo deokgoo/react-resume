@@ -24,21 +24,6 @@
     letter-spacing: 2px;
     text-align: center;
   }
-  .others,
-  .contact {flex: 1 1 50%;}
-  .distinguish {
-    color: white;
-  }
-  .clickable {
-    cursor: pointer;
-  }
-
-  .lang {
-    margin-top: 1rem;
-    display: flex;
-    color: white;
-    font-size: 1rem;
-  }
 }
 .profileContainer {
   flex: 1 1 80%;
@@ -66,6 +51,27 @@
       line-height: 150%;
       text-align: center;
       color: white;
+    }
+  }
+  .others,
+  .contact {flex: 1 1 50%;}
+  .distinguish {
+    color: white;
+  }
+  .clickable {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .lang {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+    .lang__title {
+      text-align: center;
+      margin-bottom: 1rem;
     }
   }
 }

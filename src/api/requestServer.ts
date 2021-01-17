@@ -2,6 +2,11 @@ import axios from 'axios';
 
 const baseURL = process.env.REACT_APP_API_SERVER;
 
+export const getLandingContent = (lang: string) => {
+	const languageUrl = lang?`${baseURL}/${lang}`:baseURL;
+	return axios.get(`${languageUrl}/content/landing`);
+}
+
 export const getAboutContent = (lang: string) => {
 	const languageUrl = lang?`${baseURL}/${lang}`:baseURL;
 	return axios.get(`${languageUrl}/content/about`);
