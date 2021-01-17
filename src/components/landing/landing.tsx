@@ -16,7 +16,7 @@ const Landing = memo(({refs}: {refs: any}) => {
       <div className={styles.profileContainer}>
         <div className={styles.profile}>
           <img className={styles.avatar} src={avatarUrl} alt="it's deok9"/>
-          <div className={styles.description}>
+          <div className={`${styles.description} ${landingContent?'':styles.wave}`}>
             {landingContent?.title} <br/>
             {landingContent?.subTitle}
           </div>
